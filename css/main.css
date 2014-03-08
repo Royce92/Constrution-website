@@ -9,13 +9,146 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+body{
+    background: #FFFFFF;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
 }
 
+.green{
+    color: #509743;
+}
+.white{
+    color: #fff;
+}
+.strong{
+    font-weight: bold;
+}
+
+#header-wrap{
+    padding-top: 40px;
+    
+}
+header{
+    width: 980px;
+    margin:0 auto;
+    padding: 0;
+}
+#h3{
+
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333333;
+    margin-bottom: 25px;
+}
+#h4{
+    margin-bottom: 125px;
+    font-size: 18px;
+    margin-left: 200px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav{
+    background: #3F8352;
+    width: 980px;
+    height:50px;
+    margin-top: 0px;
+    
+}
+#nav ul li{
+    alignment-adjust: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    height: 20px;
+    display: inline;
+    
+}
+
+#nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 1px 0 #387031;
+    text-decoration: none;
+    padding: 0 50px;
+
+}
+
+#header b{
+    margin-left: 280px;  
+}
+
+#header c{
+    float: right;
+}
+
+#header h5{
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+#header  h6{
+    line-height: 1px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+}
+#call{
+    margin-left: 700px;
+    margin-top: 0px;
+}
+
+
+#container{
+} 
+
+#slides h3{
+    font-size: 32px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+
+
+}
+#slides p{
+    font-size: 16px;
+    text-align: center;
+    color: #C0C0C0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#slides h2{
+    text-align: center;
+    color: #3F8352;
+    font-size: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 6px;
+}
+#fb{
+    background: #4E679D;
+    width: 800px;
+    height:40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+}
+#fb a{
+    float: right;
+}
+#fb h3{
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+
+}
+<!-- end of facebook bar-->
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
