@@ -12,7 +12,7 @@
    ========================================================================== */
 body{
     background: #FFFFFF;
-    width: 980px;
+    width: 985px;
     margin-left: auto;
     margin-right: auto;
     font-family: Helvetica, Arial, sans-serif;
@@ -56,7 +56,7 @@ body{
     background: #3F8352;
     width: auto;
     margin-left: -184px;
-    margin-right: -182px;    height:50px;
+    margin-right: -181px;    height:50px;
     margin-top: 0px;
     
 }
@@ -123,21 +123,21 @@ header c{
 #container-wrap{
 } 
 
-#slides h3{
+#slide h3{
     font-size: 32px;
     text-align: center;
     color: green;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-#slides p{
+#slide p{
     font-size: 16px;
     position: absolute;
     margin-top: -37px;
     margin-left: 202px;    color: #C0C0C0;
     font-family: Helvetica, Arial, sans-serif;
 }
-#slides h2{
+#slide h2{
     text-align: center;
     color: #3F8352;
     font-size: 18px;
@@ -147,7 +147,7 @@ header c{
 
 #fb{
     background: #465c8d;
-    width: 840px;
+    width: 980px;
     height:40px;
     margin-left: auto;
     margin-right: auto;
@@ -167,29 +167,171 @@ header c{
 }
 #face{
     position:  absolute;
-    margin-left: 619px;
+    margin-left: 673px;
     margin-top: -44px;
 }
 #welcome{
     width: 470px;
-    padding-left: 70px;
-    font-size: 13px;
-    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
 }
+
 #welcome p{
     margin-top: -11px;
     line-height: 19px;
-    font-family: Verdana, Geneva, sans-serif;	
-
+    font-family: Arial,Helvetica,sans-serif;
+    width: 494px;
 }
-#list{
+
+#heat table{
+    margin-left: -57px;
+    margin-top: 294px;
     position: absolute;
-    margin-left: 528px;
-    margin-top: -146px;
-    font-size: 17px;
-    font-family: Helvetica, Arial, sans-serif;
+    width: 143px;
 
 }
+
+#heat tr{
+    
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -mpz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    text-align: -webkit-center;
+    color: white;
+    line-height: 27px;
+    font-size: small
+
+}
+
+#heat td{
+    background: #bd3c27;
+    font-size: small;
+}
+
+    #cold table{
+    margin-left: -102px;
+    margin-top: 105px;
+    position: absolute;
+    width: 232px;
+    text-align: center;
+}
+
+
+#cold td{
+    background: #2b80b7;
+    font-size: small;
+
+}
+
+#cold tr{
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -mpz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);    
+    color: white;
+    line-height: 27px;
+    font-size: small
+}
+
+#table table{
+    width: 953px;
+    margin-left: 27px;
+    
+}
+#table tbody{
+    
+    text-align: center;
+    border-collapse:collapse;
+
+}
+#table th{
+    font-size: medium;
+    background: #7e8c8d;
+    line-height: 50px;
+    color: white;
+    border: 3px solid;
+    
+}
+#table td{
+    font-size: small;
+    background: #eef1f5;
+    text-align: left;
+    padding-left: 24px;
+    border-collapse:collapse;
+    border:1px solid white;
+    line-height: 35px;
+
+}
+
+
+#list{
+padding-left: 489px;
+margin-top: -151px;
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+
+#heating{
+    background: #eef1f5;
+    padding-left: 312px;
+    padding-right: 244px;
+    margin-left: -247px;
+    margin-right: -181px;
+
+}
+
+#heating h1{
+    color: #c0392b;
+    text-align: center;
+}
+
+#heating p{
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+}
+
+#cooling{
+    text-align: center;
+}
+
+#cooling h1{
+    color: #2980b9;
+}
+
+#cooling p{
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+footer{
+    
+}
+
+#about {
+    background: #eef1f5;
+    text-align: center;
+    width: auto;
+
+    padding-left: 395px;
+    padding-right: 288px;
+    margin-left: -255px;
+    margin-right: -183px;
+}
+
+#about p{
+    font-size: 15px;
+
+}
+
+#about b{
+    margin-left: -186px;
+}
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
