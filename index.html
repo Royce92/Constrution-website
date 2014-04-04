@@ -12,6 +12,29 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    
+
+<style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+    
+    
+     	
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -27,6 +50,8 @@
 }(document, 'script', 'facebook-jssdk'));</script>
         <!-- Add your site or application content here -->
 
+	
+		
 	<div id="header-wrap" >
 	    <header>
 		<a href="index.html"><img src="img/logo.png" border="0"></a>
@@ -34,15 +59,15 @@
 		<c href="#"><img src="img/fb_top.png" border="0"></c>
 		<div id="call">
 		    <p>Available 7 Days a Week</p>
-		    <h3> CALL US TODAY <class="green"></class="green"><a href='tel:416-555-1234'>416-555-1234</a></h3>
+		    <h3> CALL US TODAY <class="green"></class="green"><a href='tel:1800-555-5555'>1800-555-5555</a></h3>
 		</div><!--end call -->
 		<div id="nav" > 
 		    <ul>
 			<li><a href="#" title="">Services</a></li>
-			<li><a href="#" title="">Cooling</a></li>
-			<li><a href="#" title="">Heating</a></li>
-			<li><a href="#" title="">About</a></li>
-			<li><a href="#" title="">Contact</a></li>    
+			<li><a href="#cooling" title="">Cooling</a></li>
+			<li><a href="#heating" title="">Heating</a></li>
+			<li><a href="#about" title="">About</a></li>
+			<li><a href="#call" title="">Contact</a></li>    
 		    </ul>
 		</div>
 	    </header>
@@ -50,12 +75,49 @@
 
 	<div id="container-wrap">
 		   
-	    <div id="slides">
+	    <div id="slide">
 		<h3>Call us now for an estimate at 1-800-555-5555</h3>
 		<p>we're dedicated to making sure your family or business is as comfortable as possible.</p>
 		<h2>Serving Clifton and all of Northern New Jersey</h2>
 		<center><iframe width="560" height="315" src="//www.youtube.com/embed/4KjdWQpHJJ8?rel=0" frameborder="0" allowfullscreen></iframe></center>
 	    </div><!-- contact us -->
+		
+		
+  <!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  <div class="container">
+    <div id="slides">
+      <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+      <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+      <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+      <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+		
+	    <!-- End SlidesJS Required -->
+	    
+	    
+	    
+		
 			
 	    <div id="fb">
 		    <a href="#"><img src="img/fb.png" border="0"></a>
@@ -66,7 +128,7 @@
 
 	    <div id="welcome">
 		<h3><b>Welcome to Empire Heating & Cooling</b></h3>
-		<p>Whether you need to repair, replace, upgrade or even add a new system, our products are deisgned to make you more comfortable, we have the knowledge and expertise to help you choose the right heating and air conditioning system to meet your needs so that you benefit from increased efficiency, reliability, and control of your home or business's indorr enviroment.</p>
+		<p>Whether you need to repair, replace, upgrade or even add a new system, our products are deisgned to make you more comfortable, we have the knowledge and expertise to help you choose the right heating and air conditioning system to meet your needs so that you benefit from increased efficiency, reliability, and control of your home or business's indoor enviroment.</p>
 	    </div><!-- welcome -->
 	    <div id="list">
 		<ul>
@@ -78,10 +140,131 @@
 		  <li>service and preventative maintenance contracts</li>
 		</ul>
 	    </div>
+	    <div id="tabl">
+		<table>
+		<tr>
+		<td>HEATING</th>
+		<th>AIR CONDITIONING</th>
+
+		</tr>
+		</table>
+	    </div>
+
+	    <div id="table">
+		<table>
+		<tr>
+		<th>RESIDENTIAL</th>
+		<th>COMMERCIAL</th>
+		<th>INDUSTRIAL</th>
+		</tr>
+		<tr>
+		<td>Central System</td>
+		<td>Packaged Units</td>
+		<td>Colling Towers</td>
+		</tr>
+		<tr>
+		<td>Mini-Split Ductless</td>
+		<td>Split Systems</td>
+		<td>Chillers</td>
+		</tr>
+		<tr>
+		<td>Heat Pumps</td>
+		<td>Cooling Towers</td>
+		<td>Ventilation</td>
+		</tr>
+		<tr>
+		<td>Air Handlers</td>
+		<td>Chillers</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Condensers</td>
+		<td>Ventilation</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Hot water / Steam Boilers</td>
+		<td>Hot water / Steam Boilers</td>
+		<td>Hot water / Steam Boilers</td>
+		</tr>
+		<tr>
+		<td>Forced Air Heating Furnaces</td>
+		<td>Forced Air Heating Furnaces</td>
+		<td>Unitary Heaters</td>
+		</tr>
+		<tr>
+		<td>Radiant Heating Systems</td>
+		<td>Unitary Heaters</td>
+		<td>Infrared Radiant System</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td>Infrared Radiant System</td>
+		<td></td>
+		</tr>
+		
+		</table>
+
+	    </div>
+
+	    <div id="heating">
+		
+		<h1>Heating</h1>
+		<p>Our goal is to keep you warm and comfortable throught the winter months. We know which products and system will work best for you. Our recommendation will always keep your requirement and budget in mind. Wel'll respond to your requests and act quickly when you call. Nothing is more importat than your peace of mind when the weather is cold.</p>
+		<img src="img/heating.png">
+
+	    </div>
+	    <div id="cooling">
+		<h1>Cooling</h1>
+		<p>Central air conditioning helps keep your environment cool and reduces humidity level.
+		As the central air conditioning system draws air out of various rooms in your house or business through return air ducts the air is pulled through an air filter, which removed airborne particles such as dust and lint. The filtered air is then routed to air supply ductwork that carries ist back to the rooms.</p>
+		<img src="img/cooling.png">
+
+	    </div>
 	</div> <!--! end container -->
 
-		
-		
+	<footer>
+	    <div id="about">
+		<h1>About Us</h1>
+		<p>Our goal is to keep you warm and comfortable through the winter months. We know which products and systems will work best for you.
+Our recommendations will always keep your requirements and budget in mind. We'll respond to your requests and act quickly when you call.
+Nothing is more important than your peace of mind when the weather is cold. </p>
+
+
+
+		<a href="#"><img src="img/amanda.png" border="0"></a>
+		<a href="#"><img src="img/ameri.png" border="0"></a>
+		<a href="#"><img src="img/ao.png" border="0"></a>
+		<a href="#"><img src="img/brad.png" border="0"></a>
+		<a href="#"><img src="img/bur.png" border="0"></a>
+		<a href="#"><img src="img/cartier.png" border="0"></a>
+		<a href="#"><img src="img/crown.png" border="0"></a>
+		<a href="#"><img src="img/fugi.png" border="0"></a>
+		<a href="#"><img src="img/good.png" border="0"></a>
+		<a href="#"><img src="img/honey.png" border="0"></a>
+		<a href="#"><img src="img/lennox.png" border="0"></a>
+		<a href="#"><img src="img/luxa.png" border="0"></a>
+		<a href="#"><img src="img/mit.png" border="0"></a>
+		<a href="#"><img src="img/peer.png" border="0"></a>
+		<a href="#"><img src="img/rhe.png" border="0"></a>
+		<a href="#"><img src="img/ruud.png" border="0"></a>
+		<a href="#"><img src="img/sanyo.png" border="0"></a>
+		<a href="#"><img src="img/taco.png" border="0"></a>
+		<a href="#"><img src="img/trane.png" border="0"></a>
+		<a href="#"><img src="img/utica.png" border="0"></a>
+		<a href="#"><img src="img/we.png" border="0"></a>
+		<a href="#"><img src="img/white.png" border="0"></a>
+		<a href="#"><img src="img/york.png" border="0"></a>
+		<b href="#"><img src="img/truck.png" border="0"></b>
+
+
+
+	    </div>
+	    <div id="backlinks">
+
+
+	    </div>
+	</footer>	
 		
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
