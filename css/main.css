@@ -197,7 +197,7 @@ header c{
     
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
-    -mpz-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     text-align: -webkit-center;
     color: white;
@@ -229,7 +229,7 @@ header c{
 #cold tr{
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
-    -mpz-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);    
     color: white;
     line-height: 27px;
@@ -316,7 +316,6 @@ footer{
     background: #eef1f5;
     text-align: center;
     width: auto;
-
     padding-left: 395px;
     padding-right: 288px;
     margin-left: -255px;
