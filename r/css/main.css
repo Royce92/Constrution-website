@@ -11,13 +11,119 @@
    ========================================================================== */
 
 
-#body{
-    color:#000000;
+body{
+    background:#fff;
+    width: auto;
+    min-width: 960px;
+    
+
+}
+#nav{
+    background: #000;
+    width: auto;
+    margin-top: -28px;
+}
+
+#nav ul{
+    text-align: center;
+    word-spacing: 70px;
+}
+#nav ul li{
+
+    display: inline;
+}
+
+#nav ul li a{
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;    
+}
+
+#services{
+    padding-top: 50px;
+}
+
+#container-wrap{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Photoshoot{
+    width: 27%;
+    float: right;
+    position: relative;
+    padding-right: 5%;
+    padding-bottom: 63px;
+}
+
+#Photojournal{
+    width: 27%;
+    float: right;
+    position: relative;
+    padding-right: 5%;
+    padding-bottom: 63px;
+
+
+}
+#PhotoEditing{
+    width: 27%;
+    float: right;
+    position: relative;
+    padding-right: 5%;
+    padding-bottom: 63px;
+
 }
 
 
+#about{
+width: 593px;
+text-align: center;
+padding-top: 222px;
+margin-left: auto;
+margin-right: auto;
+    
+}
+
+#footer-wrap{
+padding: 1px 0;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+background: #333333 url('../img/widget-bg.jpg');
+}
 
 
+#footer-wrap{
+    color: #fff;
+    
+}
+
+#location{
+float: right;
+margin-top: -94px;
+}
+
+#location h3{
+line-height: 10px;
+margin-left: 73px;
+margin-top: 42px;
+
+
+}
+#location h4{
+    margin-top: -1px;
+}
+#social{
+    position: absolute;
+    word-spacing: -102px;
+}
+
+
+#social img{
+    margin-top: -89px;
+    margin-left: 109px;
+}
 html {
     color: #222;
     font-size: 1em;
